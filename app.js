@@ -5,7 +5,7 @@ import { subtract } from './calculations.js';
 import { multiply } from './calculations.js';
 import { divide } from './calculations.js';
 import { modulo } from './calculations.js';
-
+import { pythagorean } from './calculations.js';
 
 
 // reference needed DOM elements
@@ -38,6 +38,11 @@ const divideIntNumber1 = document.getElementById('divideInt-number-1');
 const divideIntNumber2 = document.getElementById('divideInt-number-2');
 const divideIntButton = document.getElementById('divideInt-button');
 const divideIntAnswer = document.getElementById('divideInt-answer');
+
+const pythagoreanNumber1 = document.getElementById('pythagorean-number-1');
+const pythagoreanNumber2 = document.getElementById('pythagorean-number-2');
+const pythagoreanButton = document.getElementById('pythagorean-button');
+const pythagoreanAnswer = document.getElementById('pythagorean-answer');
 
 // set event listeners 
     // get user input(s)
@@ -79,4 +84,10 @@ divideIntButton.addEventListener('click', () => {
     const quotientInt = Math.floor(divide(Number(divideIntNumber1.value), Number(divideIntNumber2.value)));
     console.log(quotientInt);
     divideIntAnswer.textContent = quotientInt;
+});
+
+pythagoreanButton.addEventListener('click', () => {
+    const hypotenuse = pythagorean(Number(pythagoreanNumber1.value), Number(pythagoreanNumber2.value));
+    console.log(hypotenuse);
+    pythagoreanAnswer.textContent = hypotenuse;
 });

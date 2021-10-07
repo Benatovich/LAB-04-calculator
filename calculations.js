@@ -17,3 +17,7 @@ export function divide(x, y) {
 export function modulo(x, y) {
     return x % y;
 }
+
+export function pythagorean(x, y) {
+    return (Math.sqrt((x * x) + (y * y)));
+}

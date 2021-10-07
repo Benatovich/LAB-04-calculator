@@ -145,3 +145,20 @@ footer {
     width: 200px;
     margin-left: 20px;
 }
+
+#pythagorean-number-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 155px;
+}
+
+#pythagorean-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#pythagorean-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
