@@ -44,8 +44,9 @@ footer {
 
 
 #add-number-1 {
-    margin-left: 45px;
+    margin-left: 65px;
     margin-right: 20px;
+    width: 155px;
 }
 
 #add-number-2 {
@@ -61,8 +62,9 @@ footer {
 
 
 #subtract-number-1 {
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 20px;
+    width: 155px;
 }
 
 #subtract-number-2 {
@@ -77,8 +79,9 @@ footer {
 }
 
 #multiply-number-1 {
-    margin-left: 25px;
+    margin-left: 45px;
     margin-right: 20px;
+    width: 155px;
 }
 
 #multiply-number-2 {
@@ -93,8 +96,9 @@ footer {
 }
 
 #divide-number-1 {
-    margin-left: 33px;
+    margin-left: 53px;
     margin-right: 20px;
+    width: 155px;
 }
 
 #divide-number-2 {
@@ -109,8 +113,9 @@ footer {
 }
 
 #modulo-number-1 {
-    margin-left: 25px;
+    margin-left: 45px;
     margin-right: 20px;
+    width: 155px;
 }
 
 #modulo-number-2 {
@@ -119,6 +124,23 @@ footer {
 }
 
 #modulo-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#divideInt-number-1 {
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 155px;
+}
+
+#divideInt-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#divideInt-answer {
     border: 1px solid black;
     width: 200px;
     margin-left: 20px;

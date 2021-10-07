@@ -34,6 +34,11 @@ const moduloNumber2 = document.getElementById('modulo-number-2');
 const moduloButton = document.getElementById('modulo-button');
 const moduloAnswer = document.getElementById('modulo-answer');
 
+const divideIntNumber1 = document.getElementById('divideInt-number-1');
+const divideIntNumber2 = document.getElementById('divideInt-number-2');
+const divideIntButton = document.getElementById('divideInt-button');
+const divideIntAnswer = document.getElementById('divideInt-answer');
+
 // set event listeners 
     // get user input(s)
     // do any needed work with the value(s)
@@ -70,3 +75,8 @@ moduloButton.addEventListener('click', () => {
     moduloAnswer.textContent = remainder;
 });
 
+divideIntButton.addEventListener('click', () => {
+    const quotientInt = Math.floor(divide(Number(divideIntNumber1.value), Number(divideIntNumber2.value)));
+    console.log(quotientInt);
+    divideIntAnswer.textContent = quotientInt;
+});
