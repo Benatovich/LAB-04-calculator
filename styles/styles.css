@@ -35,5 +35,21 @@ footer {
 }
 
 section {
-    display: contents;
+    display: flex;
+}
+
+#add-number-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#add-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#add-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
 }
