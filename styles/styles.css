@@ -8,7 +8,14 @@ body {
 
 main {
     padding: 30px;
+    justify-content: left;
 }
+
+section { 
+    display: flex;
+    height: 30px;
+    margin-bottom: 20px;
+} 
 
 header {
     background-color: #A2D7D2;
@@ -34,9 +41,7 @@ footer {
     padding: 10px;
 }
 
-section {
-    display: flex;
-}
+
 
 #add-number-1 {
     margin-left: 20px;
@@ -49,6 +54,55 @@ section {
 }
 
 #add-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+#subtract-number-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#subtract-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#subtract-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#multiply-number-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#multiply-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#multiply-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#divide-number-1 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#divide-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#divide-answer {
     border: 1px solid black;
     width: 200px;
     margin-left: 20px;
