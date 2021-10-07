@@ -4,6 +4,7 @@ import { add } from './calculations.js';
 import { subtract } from './calculations.js';
 import { multiply } from './calculations.js';
 import { divide } from './calculations.js';
+import { modulo } from './calculations.js';
 
 
 
@@ -28,6 +29,10 @@ const divideNumber2 = document.getElementById('divide-number-2');
 const divideButton = document.getElementById('divide-button');
 const divideAnswer = document.getElementById('divide-answer');
 
+const moduloNumber1 = document.getElementById('modulo-number-1');
+const moduloNumber2 = document.getElementById('modulo-number-2');
+const moduloButton = document.getElementById('modulo-button');
+const moduloAnswer = document.getElementById('modulo-answer');
 
 // set event listeners 
     // get user input(s)
@@ -57,5 +62,11 @@ divideButton.addEventListener('click', () => {
     const quotient = divide(Number(divideNumber1.value), Number(divideNumber2.value));
     console.log(quotient);
     divideAnswer.textContent = quotient;
+});
+
+moduloButton.addEventListener('click', () => {
+    const remainder = modulo(Number(moduloNumber1.value), Number(moduloNumber2.value));
+    console.log(remainder);
+    moduloAnswer.textContent = remainder;
 });
 

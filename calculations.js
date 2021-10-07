@@ -13,3 +13,7 @@ export function multiply(x, y) {
 export function divide(x, y) {
     return x / y;
 }
+
+export function modulo(x, y) {
+    return x % y;
+}

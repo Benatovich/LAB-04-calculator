@@ -7,8 +7,8 @@ body {
 }
 
 main {
+    display: fle;
     padding: 30px;
-    justify-content: left;
 }
 
 section { 
@@ -103,6 +103,22 @@ footer {
 }
 
 #divide-answer {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 20px;
+}
+
+#modulo-number-1 {
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+#modulo-number-2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#modulo-answer {
     border: 1px solid black;
     width: 200px;
     margin-left: 20px;
